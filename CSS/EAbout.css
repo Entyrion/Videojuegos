@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: rgba(0, 255, 221, 0.438);
+}
+p{
+    color: midnightblue;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h2{
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+}
+a:hover{
+    color: orangered;
+}
+.titulo{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(213, 245, 255);
+    height: 10rem;
+}

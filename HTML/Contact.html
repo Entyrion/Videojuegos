@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/EContact.css">
+</head>
+<body>
+    <div class="titulo">
+        <h4>Página Contacto</h4>
+    </div>
+    <hr>
+    <ul> <!--Lista de navegacion-->
+        <li><a href="../HTML/index.html">Inicio</a></li>
+        <li><a href="../HTML/About.html">About</a></li>
+        <li><a href="../HTML/Contact.html">Contact</a></li>
+        <li><a href="../HTML/Gallery.html">Gallery</a></li>
+    </ul>
+    <hr> <!-- Fin menú-->
+    <div class="centrar">
+        <form> <!--Etiqueta para formulario-->
+            <label for="txtnombre">Ingresa tu nombre completo</label> <!--Etiqueta para ingresar texto-->
+            <input name="txtnombre" type="text" placeholder="Tu nombre completo" required><br><br> <!--Etiqueta para recibir entradas -->
+            <label for="txtnum">Ingresa tu numero</label>
+            <input name="txtnum" type="number" placeholder="4494567815" required><br><br> <!-- Permite solo agregar numeros-->
+            <label for="txtcorreo">Ingresa tu correo electronico</label>
+            <input name="txtcorreo" type="email" placeholder="Mecmec@correo.com" required><br><br> <!-- Permite solo agregar correos electronicos-->
+            <label for="txtcoms">Ingresa tus comentarios</label>
+            <textarea name="txtcoms" cols="30" rows="5" placeholder="Mensaje" required></textarea> <br><br> <!-- Introduce un cuadro de texto-->
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>© This page was created by Vladimir Luevano Peña with Visual Studio Code</p>
+    </footer>
+</body>
+</html>

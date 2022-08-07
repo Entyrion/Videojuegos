@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+/* Etiquetas */
+body{
+    margin: 0;
+    background-color: rgba(0, 255, 221, 0.438);
+}
+p{
+    color: midnightblue;
+    font-size: 20pt;
+    font-family: 'Forum', cursive;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 40pt;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+li{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+}
+a:hover{
+    color: orangered;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+audio{
+    margin-left: 40%;
+}
+
+/* IDs */
+#p1{
+    color: rgb(0, 75, 13);
+    font-size: 20pt;
+    text-align: justify;
+    background-color: rgb(161, 208, 250);
+}
+
+/* Classes */
+.p2{
+    color: rgb(68, 1, 1);
+    font-size: 20pt;
+    text-align: justify;
+}
+.p3{
+    color: rgb(36, 0, 53);
+    font-size: 20pt;
+    text-align: justify;
+    background-color: rgb(255, 224, 205);
+}
+.titulo{
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(213, 245, 255);
+    height: 10rem;
+}
